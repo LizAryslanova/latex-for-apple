@@ -15,21 +15,45 @@ body {
 }
 
 
+a {
+
+    height:  200px;
+}
+
+
+
+
 .box {
+    box-sizing: border-box;
+
+
+
     background: blanchedalmond;
     text-align: center;
 
-    margin: 15px auto;
-    padding: 15px;
-
-    line-height: 50px;
+    border: solid 1px black;
 
 
-    box-sizing: border-box;
+    height: 104px;
+    width: 300px;
+
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+    float: left;
 
 }
 
 
+.box:after {
+
+    content:  " ";
+    display: table;
+    clear: both;
+
+}
 
 
 img {
@@ -37,4 +61,10 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 80px;
+}
+
+
+#footer {
+
+    clear:  both;
 }
