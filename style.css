@@ -64,10 +64,24 @@ body {
     float: right;
 
     margin: 0 200px 200px 0;
+}
+
+#basic_arithmetic {
+
+    background-image: url(images/index_buttons/basic_arithm.png);
+    background-size: cover;
 
 
+}
 
+#set_theory {
+    background-image: url(images/index_buttons/set_theory.png);
+    background-size: cover;
+}
 
+#propositional_logic {
+    background-image: url(images/index_buttons/propos_logic.png);
+    background-size: cover;
 }
 
 
