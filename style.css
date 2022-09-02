@@ -86,8 +86,6 @@ body {
 
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
   padding: 5px;
   width: 80px;
 }
@@ -97,3 +95,25 @@ img {
 
     clear:  both;
 }
+
+
+table {
+  border-collapse: collapse;
+
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 10px 20px 10px 20px;
+
+
+
+}
+
+
+.third_column {
+    background-color: lightgray;
+    padding: 10px 30px 10px 50px;
+
+}
+
