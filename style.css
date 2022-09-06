@@ -97,10 +97,12 @@ img {
 }
 
 
-table {
-  border-collapse: collapse;
 
-}
+
+/* table {
+      border-collapse: collapse;
+
+} */
 
 td, th {
   border: 1px solid #999;
@@ -112,8 +114,17 @@ td, th {
 
 
 .third_column {
-    background-color: lightgray;
-    padding: 10px 30px 10px 50px;
+    background-color: #F6F8FA;
+    font-family: Andale Mono, monospace;
+    color: #005493;
+    padding: 15px 50px 15px 50px;
 
 }
 
+
+.additional {
+    font-style: italic;
+    color: #A9A9A9;
+    font-size: 20px;
+
+}
