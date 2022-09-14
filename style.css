@@ -3,10 +3,12 @@ body {
     color: #303;
 
 
-    width: 960px;
+
+ /*   width: 960px; */
     min-width: 960px;
     margin: 0 auto;
-    padding: 20px;
+
+
 
 
     font-size: 24px;
@@ -17,6 +19,7 @@ body {
 
 
 .box {
+
     box-sizing: border-box;
 
     margin: 0 20px 30px 20px;
@@ -91,11 +94,6 @@ img {
 }
 
 
-#footer {
-
-    clear:  both;
-}
-
 
 
 
@@ -128,3 +126,41 @@ td, th {
     font-size: 20px;
 
 }
+
+
+
+footer {
+    background-color: darkgray;
+
+    margin-top: 100px;
+
+    padding: 20px 0 30px;
+    vertical-align: middle;
+
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    text-align: center;
+
+
+    clear:  both;
+
+
+}
+
+
+table {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+h1 {
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: clamp(150px, 25%, 1500px);  /*A clamp takes three values; the minimum, preferred, and maximum values, in that order. */
+     padding-right: clamp(450px, 25%, 1500px);
+     text-align: center;
+
+
+ }
