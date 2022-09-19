@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #f4f3ee;
     color: #303;
 
     min-width: 960px;
@@ -44,10 +44,10 @@ nav {
     float: right;
 
 
-    background: blanchedalmond;
+    background: white;
     text-align: center;
 
-    border: solid 1px black;
+    border: solid 1px #463F3A;
 
     height: 150px;
     width: 350px;
@@ -63,10 +63,10 @@ nav {
 
     box-sizing: border-box;
 
-    background: blanchedalmond;
+    background: white;
     text-align: center;
 
-    border: solid 1px black;
+    border: solid 1px #463F3A;
 
     height: 1200px;
     width: 350px;
@@ -137,6 +137,7 @@ img {
 td, th {
     border: 1px solid #999;
     padding: 10px 20px 10px 20px;
+    background-color: white;
 }
 
 
@@ -168,31 +169,28 @@ table {
 
 
 h1 {
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: clamp(150px, 25%, 1500px);  /*A clamp takes three values; the minimum, preferred, and maximum values, in that order. */
-    padding-right: clamp(250px, 25%, 1500px);
+    margin: 30px 0 25px 0;
+    padding: 30px 0 30px 0;
+
     text-align: center;
+    background-color: #F4F3EE;
+    color: #59504a;
 
-    background-color: darkgray;
 
-    vertical-align: middle;
-    height: 100px;   /* Height of the h1 headers */
 }
+
 
 .website-header {
 
-    background-color: darkgray;
+    background-color: #59504A;
     margin: 0;
+    padding: 7px 0px 7px 20px;
 
-
-    padding: 7px 0px 6px 20px;
+    position: sticky;
+    top: 0;
+    left: 10px;
 
     vertical-align: middle;
-
-    bottom:0;
-    width:100%;
-
     text-align: left;
 }
 
@@ -200,7 +198,8 @@ h1 {
 
 
 footer {
-    background-color: darkgray;
+    background-color: #463f3a;
+    color: #8A817C;
 
     margin-top: 100px;
 
@@ -230,26 +229,33 @@ a {
 
 a:link {
 
-    color: #fc3;
+    color: #F4F3EE;
     text-decoration: none;
+
 }
 
 a:visited {
 
-    color: #fc3;
+    color: #F4F3EE;
     text-decoration: none;
 }
 
 a:hover {
 
-    color: greenyellow;
+    color: #FF9F1C;
     text-decoration: none;
+
+
 }
 
 a:active {
 
-    color: black;
+    color: #FF9F1C;
     text-decoration: none;
+
+    position: relative;
+    top: 1px;
+
 }
 
 
@@ -260,36 +266,43 @@ a:active {
 
 a.box:link {
 
-    color: blueviolet;
+    color: #463F3A;
     text-decoration: none;
+    padding: 1px 0 0 0;
 
 }
 
 a.box:visited {
 
-    color: blueviolet;
+    color: #463F3A;
     text-decoration: none;
+    padding: 1px 0 0 0;
 }
 
 a.box:hover {
 
-    color: greenyellow;
+    color: #CD7D65;
     text-decoration: none;
+    font-weight: bold;
+    padding: 0;
 
-    border: solid 2px greenyellow;
+    border: solid 3px #E0AFA0;
+
 }
 
 a.box:active {
 
-    color: greenyellow;
+    color: #CD7D65;
     text-decoration: none;
+    font-weight: bold;
+    padding: 0;
 
     position: relative;
     top: 1px;
     left: 10px;
     right: 20px;
 
-    border: solid 2px greenyellow;
+    border: solid 3px #E0AFA0;
 }
 
 
