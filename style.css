@@ -100,11 +100,13 @@ nav {
 }
 
 #mult_expressions {
-
+    background-image: url(images/index_buttons/text.png);
+    background-size: cover;
 }
 
 #colour {
-
+    background-image: url(images/index_buttons/colour.png);
+    background-size: cover;
 }
 
 #matrices {
@@ -123,6 +125,12 @@ nav {
 img {
     padding: 5px;
     width: 80px;
+}
+
+.screenshot {
+    width: 350px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -193,6 +201,20 @@ h1 {
     vertical-align: middle;
     text-align: left;
 }
+
+
+.website-header-home {
+
+    background-color: #59504A;
+    margin: 0;
+    padding: 7px 0px 7px 20px;
+
+
+    vertical-align: middle;
+    text-align: left;
+}
+
+
 
 #connect { padding-left: 12px; }
 
