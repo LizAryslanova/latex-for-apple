@@ -110,11 +110,13 @@ nav {
 }
 
 #matrices {
-
+    background-image: url(images/index_buttons/matrices.png);
+    background-size: cover;
 }
 
 #integrals_sums {
-
+    background-image: url(images/index_buttons/integrals_sums.png);
+    background-size: cover;
 }
 
 #greek_letters {
@@ -184,9 +186,19 @@ h1 {
     background-color: #F4F3EE;
     color: #59504a;
 
-
 }
 
+
+h2 {
+    margin: 30px 0 25px 0;
+    padding: 30px 0 30px 0;
+
+    text-align: center;
+    background-color: #F4F3EE;
+    color: #59504a;
+
+
+}
 
 .website-header {
 
