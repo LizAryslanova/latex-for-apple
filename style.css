@@ -57,6 +57,21 @@ nav {
 }
 
 
+.explore_view {
+
+    margin: 10px;
+    padding: 50px 0 50px 0;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+
+
+
+}
+
+
 .explore_box {
 
     margin: 0;
@@ -68,7 +83,7 @@ nav {
 
     border: solid 1px #463F3A;
 
-    height: 1200px;
+    height: 1500px;
     width: 350px;
 
     position: relative;
@@ -83,8 +98,8 @@ nav {
 }
 
 
-#basic_arithmetic {
 
+#basic_arithmetic {
     background-image: url(images/index_buttons/basic_arithm.png);
     background-size: cover;
 }
@@ -353,93 +368,3 @@ a.box:active {
 
 
 
-
-
-
-
-
-
-
-/* ============================================================= */
-/* ============================================================= */
-/* ============================================================= */
-/* ============================================================= */
-
-/* =============================================================
-
-nav {
-    margin-left: clamp(50px, 10%, 500px);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: clamp(50px, 15%, 700px);
-
-    border: solid 1px blueviolet;
-}
-
-.types-of-symbols {
-
-    margin: 0 380px 10px 10px;
-
-   border: solid 3px greenyellow;
-
-}
-
-
-.box {
-
-
-    box-sizing: border-box;
-    display: inline-block;
-
-    margin: 0 20px 20px 20px;
-
-    position: relative;
-    left: 10px;
-    top: 0px;
-
-    float: right;
-
-
-    background: blanchedalmond;
-    text-align: center;
-
-    border: solid 1px black;
-
-    height: 150px;
-    width: 350px;
-
-
-    box-shadow: -5px 5px 5px 0 lightgray;
-}
-
-
-.explore_box {
-
-    margin: 0;
-
-    box-sizing: border-box;
-
-    background: blanchedalmond;
-    text-align: center;
-
-    border: solid 1px black;
-
-    height: 1200px;
-    width: 350px;
-
-    position: relative;
-    left: 0px;
-    top: 0px;
-
-    float: right;
-
-    margin-bottom: 200px;
-
-    box-shadow: -5px 5px 5px 0 lightgray;
-}
-
-============================================================= */
-
-/* ============================================================= */
-/* ============================================================= */
-/* ============================================================= */
