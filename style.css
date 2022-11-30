@@ -120,7 +120,14 @@ nav {
 }
 
 #greek_letters {
+    background-image: url(images/index_buttons/greek_letters.png);
+    background-size: cover;
 
+}
+
+#symbols {
+    background-image: url(images/index_buttons/symbols.png);
+    background-size: cover;
 }
 
 
