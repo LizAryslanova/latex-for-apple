@@ -56,45 +56,40 @@ nav {
     box-shadow: -5px 5px 5px 0 lightgray;
 }
 
-
-.explore_view {
-
-    margin: 10px;
-    padding: 50px 0 50px 0;
-
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-
-
-
-
-}
-
-
 .explore_box {
 
-    margin: 0;
-
     box-sizing: border-box;
+    display: inline-block;
+
+    margin: 0 40px 30px 0;
+
+    position: relative;
+    left: 10px;
+    top: 0px;
+
+    float: right;
+
 
     background: white;
     text-align: center;
 
     border: solid 1px #463F3A;
 
-    height: 1500px;
+    height: 1550px;
     width: 350px;
 
-    position: relative;
-    left: 0px;
-    top: 0px;
-
-    float: right;
-
-    margin-bottom: 200px;
-
     box-shadow: -5px 5px 5px 0 lightgray;
+
+
+    background-image: url(images/index_buttons/explore.png);
+    background-size: cover;
+}
+
+
+.explore_table {
+
+    margin: 10px;
+    display: inline;
 }
 
 
@@ -219,6 +214,21 @@ h2 {
     background-color: #F4F3EE;
     color: #59504a;
 
+}
+
+#p_connect {
+
+    text-align: center;
+    background-color: #F4F3EE;
+    color: #59504a;
+
+    font-size: 32px;
+}
+
+#my_address {
+
+    font-weight: bold;
+    color: #2259B1;
 
 }
 
@@ -362,6 +372,52 @@ a.box:active {
 }
 
 
+
+
+
+/* ============================================================= */
+
+
+a.explore_box:link {
+
+    color: #463F3A;
+    text-decoration: none;
+    padding: 1px 0 0 0;
+
+}
+
+a.explore_box:visited {
+
+    color: #463F3A;
+    text-decoration: none;
+    padding: 1px 0 0 0;
+}
+
+a.explore_box:hover {
+
+    color: #CD7D65;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0;
+
+    border: solid 3px #E0AFA0;
+
+}
+
+a.explore_box:active {
+
+    color: #CD7D65;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0;
+
+    position: relative;
+    top: 1px;
+    left: 10px;
+    right: 20px;
+
+    border: solid 3px #E0AFA0;
+}
 
 
 
