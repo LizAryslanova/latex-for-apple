@@ -191,6 +191,7 @@ td, th {
 table {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 70px;
 }
 
 /* end of table settings */
@@ -230,12 +231,6 @@ h2 {
     font-size: 32px;
 }
 
-#my_address {
-
-    font-weight: bold;
-    color: #2259B1;
-
-}
 
 .website-header {
 
@@ -427,5 +422,51 @@ a.explore_box:active {
 
 
 
+/* ============================================================= */
+/* My email button */
 
 
+#my_address {
+
+    font-weight: bold;
+    color: #2259B1;
+}
+
+
+a#my_address:link {
+
+    color: #2259B1;
+    text-decoration: none;
+    padding: 1px 0 0 0;
+}
+
+a#my_address:visited {
+
+    color: #2259B1;
+    text-decoration: none;
+    padding: 1px 0 0 0;
+}
+
+a#my_address:hover {
+
+    color: #437DDB;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 1px 0 0 0;
+}
+
+a#my_address:active {
+
+    color: #437DDB;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 1px 0 0 0;
+
+    position: relative;
+    top: 1px;
+    left: 0px;
+    right: 0px;
+}
+
+
+/* ============================================================= */
